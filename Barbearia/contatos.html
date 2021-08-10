@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+	<title>Contatos</title>
+
+	<!--Bootstrap-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<!--Css-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!--Fonte-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@600&display=swap" rel="stylesheet">
+	<link rel="icon" href="img/logo-branco.png" sizes="192x192" />
+
+</head>
+<body>
+	<header>
+		
+		<div class="container-fluid">
+			
+			<h1><img src="img/logo.png"></h1>
+			
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="produtos.html">Produtos</a></li>
+					<li><a href="contatos.html">Contatos</a></li>
+				</ul>	
+			</nav>
+
+		</div>
+
+	</header>
+
+	<div class="container">
+		<main>
+			<form>
+				
+				<label>Nome e Sobrenome</label>
+				<input type="text" name="nome" placeholder="Seu nome" class="input-padrao">
+				<label>Email</label>
+				<input type="email" name="email" placeholder="Seu Email" class="input-padrao">
+				<label>Telefone</label>
+				<input type="tel" name="telefone" placeholder="(XX) XXXXX-XXXX" class="input-padrao">
+				<label>Mensagem</label>
+				<textarea class="input-padrao"></textarea>
+
+				<fieldset>
+					
+					<legend>Como prefere nosso contato?</legend>
+					
+					
+					<label> <input type="radio" name="contato">Email</label>
+					<label> <input type="radio" name="contato">Telefone</label>
+					<label> <input type="radio" name="contato">WhatsApp</label>
+
+				</fieldset>
+
+				<fieldset>
+					
+					<legend>Qual horário prefere ser atendido?</legend>
+					
+					<select>
+						
+						<option>Selecione</option>
+						<option>Manhã</option>
+						<option>Tarde</option>	
+						<option>Noite</option>	
+						
+					</select>
+
+				</fieldset>
+
+				<label><input type="checkbox" name="" checked="true">Gostaria de receber nossas novidades por email?</label>
+
+				<input type="submit" name="" value="Enviar Formulário" class="botao">
+
+			</form>
+
+			<table>
+				<tr>
+					<th>Dia</th>
+					<th>Horário</th>
+				</tr>
+				
+				<tr>
+					<td>Segunda</td>
+					<td>8h~18h</td>
+				</tr>
+				
+				<tr>
+					<td>Quarta</td>
+					<td>8h~18h</td>
+				</tr>
+
+				<tr>
+					<td>Sexta</td>
+					<td>8h~18h</td>
+				</tr>
+
+			</table>
+
+		</main>
+	</div>
+	
+	<footer style="background-image: url(img/bg.jpg);">
+		
+		<img src="img/logo-branco.png">
+		
+		<p class="copyright">&copy; Copyright Barbearia Alura - 2021</p>
+
+	</footer>
+
+</body>
+</html>
